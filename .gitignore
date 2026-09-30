@@ -1,0 +1,14 @@
+  # Never commit secrets
+   .env
+   *.env
+   !.env.example
+
+   # Certificates and keys
+   *.key
+   *.pem
+   *.p12
+   *.pfx
+
+   # Miscellaneous
+   .DS_Store
+   Thumbs.db
