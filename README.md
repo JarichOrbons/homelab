@@ -39,7 +39,7 @@ flowchart TB
 | **Container management** | Portainer CE |
 | **Identity provider** | Keycloak with PostgreSQL as its database |
 
-> Hardware: mini PC 1 – *[add CPU / RAM]*. Mini PC 2 – *[add]*.
+> Hardware: mini PC 1 – . Mini PC 2 – .
 
 ---
 
