@@ -50,7 +50,7 @@ flowchart TB
 | Install and update Proxmox VE | ✅ Done |
 | Docker LXC with Portainer | ✅ Done |
 | Keycloak + PostgreSQL (dev mode) | ✅ Running |
-| Configure Keycloak: permanent admin, `homelab` realm, MFA (OTP) | 🔄 In progress |
+| Configure Keycloak: permanent admin, `homelab` realm, MFA (OTP) | ✅ Done |
 | Reverse proxy + own CA / TLS certificates | 📋 Planned |
 | Keycloak in production mode behind the proxy (HTTPS) | 📋 Planned |
 | SSO integrations via OIDC and SAML (Portainer, Grafana) | 📋 Planned |
@@ -80,6 +80,7 @@ flowchart TB
 | Document | Contents |
 |---|---|
 | [01 – Proxmox and Docker](docs/01-proxmox-docker.md) | Installation, decisions, problems and solutions |
+| [02 – Keycloak setup](docs/02-keycloak-setup.md) | Permanent admin, `homelab` realm, user and mandatory MFA |
 
 ## Configuration
 
