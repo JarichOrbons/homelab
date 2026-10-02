@@ -49,7 +49,7 @@ flowchart TB
 | **Container management** | Portainer CE, sign-in via Keycloak (OIDC) |
 | **Identity provider** | Keycloak with PostgreSQL; realm `master` for administration only, realm `homelab` for users and applications |
 
-
+> Hardware:
 
 ---
 
@@ -63,7 +63,8 @@ flowchart TB
 | Configure Keycloak: permanent admin, `homelab` realm, MFA (OTP) | ✅ Done |
 | SSO via OIDC: Portainer | ✅ Done |
 | SSO via OIDC with role mapping (Grafana) and SAML | 📋 Planned |
-| Backups (Proxmox backup jobs, later Proxmox Backup Server) | 📋 Planned |
+| Backups: weekly backup job, restore tested | ✅ Done |
+| Dedicated backup disk as Proxmox backup storage | 📋 Planned |
 | Reverse proxy + own CA / TLS certificates | 📋 Planned |
 | Keycloak in production mode behind the proxy (HTTPS) | 📋 Planned |
 | Federation Keycloak ↔ Microsoft Entra ID | 📋 Planned |
@@ -97,6 +98,7 @@ flowchart TB
 | [01 – Proxmox and Docker](docs/01-proxmox-docker.md) | Installation, decisions, problems and solutions |
 | [02 – Keycloak setup](docs/02-keycloak-setup.md) | Permanent admin, `homelab` realm, user and mandatory MFA |
 | [03 – SSO: Portainer via OIDC](docs/03-sso-portainer-oidc.md) | Authorization code flow, client setup, lessons learned |
+| [04 – Backups](docs/04-backups.md) | Backup job, retention and a tested restore |
 
 ## Configuration
 
